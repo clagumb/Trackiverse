@@ -4,7 +4,7 @@
 
 # Datenschutzerklärung & Impressum / Privacy Policy & Legal Notice
 
-**Stand / Last Updated:** 26. Juli 2026
+**Stand / Last Updated:** 28. Juli 2026
 
 ---
 
