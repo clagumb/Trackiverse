@@ -76,7 +76,7 @@ Claus Gumbmann
 Heinrich-Böll-Str. 29  
 90587 Veitsbronn  
 Germany  
-**Email:** clagumb@gmail.com  
+**Email:** spalier-02talg@icloud.com  
 
 All applications within **Trackiverse** are designed with privacy as the highest priority and can be used without registration.
 
@@ -84,16 +84,16 @@ All applications within **Trackiverse** are designed with privacy as the highest
 
 ### 2. Module Breakdown & Data Collection
 
-* **Bergschein-Tracker:** Tracks personal Bergkirchweih status (e.g., myth level, gender, progress) and date/time strictly on your local device. *(100% local)*
-* **Biermass-Tracker:** Tracks beer consumption (number of Mass, dates, optional location upon consent). *(100% local)*
-* **Eiskugeln-Tracker:** Records ice cream consumption (scoops, date, optional location upon consent). *(100% local)*
-* **Espresso-Tracker:** Records consumed espressos (date/time, count, optional location upon consent). *(100% local)*
-* **Kennzeichen-Tracker:** Stores license plate data, status, and optionally date, location, or notes. *(100% local)*
-* **Klimmzug-Tracker:** Tracks pull-up progress (number of pull-ups, dates) strictly on your local device. Uses local notifications to alert you when a rest timer ends. *(100% local)*
-* **Lesen-Tracker:** Stores book details, local cover paths, reading sessions, and ratings. Uses **Open Library (Internet Archive)** exclusively to retrieve book data via ISBN search (transmits ISBN and device IP address for technical reasons).
-* **Pfand-Tracker:** Stores **only date of entry and deposit amount in Euro** locally. *(100% local)*
-* **Puzzle-Tracker:** Stores date/time of entry, puzzle details (title/type, status, duration), and optional photos of puzzle progress strictly on your local device. *(100% local)*
-* **Trinkgeld-Tracker:** Tracks shift earnings, working hours, and tips locally. *(100% local)*
+* 🏔️ **Bergschein-Tracker:** Tracks personal Bergkirchweih status (e.g., myth level, gender, progress) and date/time strictly on your local device. *(100% local)*
+* 🍺 **Biermass-Tracker:** Tracks beer consumption (number of Mass, dates, optional location upon consent). *(100% local)*
+* 🍦 **Eiskugeln-Tracker:** Records ice cream consumption (scoops, date, optional location upon consent). *(100% local)*
+* ☕ **Espresso-Tracker:** Records consumed espressos (date/time, count, optional location upon consent). *(100% local)*
+* 🚗 **Kennzeichen-Tracker:** Stores license plate data, status, and optionally date, location, or notes. *(100% local)*
+* 🏋️ **Klimmzug-Tracker:** Tracks pull-up progress (number of pull-ups, dates) strictly on your local device. Uses local notifications to alert you when a rest timer ends. *(100% local)*
+* 📖 **Lesen-Tracker:** Stores book details, local cover paths, reading sessions, and ratings. Uses **Open Library (Internet Archive)** exclusively to retrieve book data via ISBN search (transmits ISBN and device IP address for technical reasons).
+* 🍾 **Pfand-Tracker:** Stores **only date of entry and deposit amount in Euro** locally. *(100% local)*
+* 🧩 **Puzzle-Tracker:** Stores date/time of entry, puzzle details (title/type, status, duration), and optional photos of puzzle progress strictly on your local device. *(100% local)*
+* 💶 **Trinkgeld-Tracker:** Tracks shift earnings, working hours, and tips locally. *(100% local)*
 
 ---
 
