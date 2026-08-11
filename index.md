@@ -4,7 +4,7 @@
 
 # Datenschutzerklärung & Impressum / Privacy Policy & Legal Notice
 
-**Stand / Last Updated:** 28. Juli 2026
+**Stand / Last Updated:** 11. August 2026
 
 ---
 
@@ -12,14 +12,14 @@
 
 ### 1. Impressum (Angaben gemäß § 5 TMG / § 18 Abs. 2 MStV)
 
-**Verantwortlicher im Sinne der DSGVO:**  
-Claus Gumbmann  
-Heinrich-Böll-Str. 29  
-90587 Veitsbronn  
-Deutschland  
+**Verantwortlicher im Sinne der DSGVO:**
+Claus Gumbmann
+Heinrich-Böll-Str. 29
+90587 Veitsbronn
+Deutschland
 
-**Kontakt:**  
-E-Mail: spalier-02talg@icloud.com  
+**Kontakt:**
+E-Mail: spalier-02talg@icloud.com
 
 ---
 
@@ -47,6 +47,7 @@ Jedes Modul arbeitet eigenständig und verarbeitet personenbezogene Daten nur, s
   * **Lokal gespeicherte Daten:** Buchdetails (Titel, Autor, ISBN, Seitenanzahl, Genre), lokale Pfade zu heruntergeladenen Buchcovern, Lese-Sitzungen (Start-/Endzeitpunkt) sowie persönliche Bewertungen.
   * **Abruf von Buchdaten (Open Library):** Um das Hinzufügen von Büchern per ISBN-Suche zu erleichtern, werden Anfragen ausschließlich an den freien Dienst Open Library (Internet Archive) gesendet. Hierbei werden die gesuchte ISBN sowie technisch bedingt die IP-Adresse Ihres Geräts an Open Library übertragen.
 * 🍾 **Pfand-Tracker:** Erfassung und Verwaltung von Pfandbeträgen. Es werden **ausschließlich das Datum der Erfassung und der Pfandbetrag in Euro** lokal auf dem Gerät gespeichert. *(100 % lokal)*
+* 🍕 **Pizza-Tracker:** Erfassung und Verwaltung von Pizzen (Durchmesser, daraus berechnete Fläche, Datum und Uhrzeit der Erfassung, optionaler Standort nur bei ausdrücklicher Einwilligung). Vergleichsflächen (z. B. Sportfelder) werden ausschließlich lokal aus den erfassten Daten berechnet. *(100 % lokal)*
 * 🧩 **Puzzle-Tracker:** Erfassung und Auswertung von Puzzles (z. B. gelöst, in Arbeit). Es werden Datum und Uhrzeit der Erfassung, Puzzle-Details (z. B. Titel/Typ, Status, Dauer) sowie optional Fotos des Puzzle-Fortschritts lokal gespeichert. *(100 % lokal)*
 * 💶 **Trinkgeld-Tracker:** Eigenständige Erfassung und Berechnung von Schichteinnahmen, Arbeitszeiten und Trinkgeldern für Servicekräfte. *(100 % lokal)*
 
@@ -57,7 +58,7 @@ Jedes Modul arbeitet eigenständig und verarbeitet personenbezogene Daten nur, s
 * **Teilen-Funktion:** Das Teilen von Ständen erfolgt ausschließlich manuell auf Ihre ausdrückliche Initiative hin über die vom Betriebssystem bereitgestellten Funktionen.
 * **Kamera:** Wird im *Lesen-Tracker* (zum Scannen des ISBN-Barcodes) und im *Puzzle-Tracker* (zum optionalen Festhalten des Puzzle-Fortschritts per Foto) angefragt. Alle Aufnahmen verbleiben ausschließlich lokal auf Ihrem Gerät.
 * **Benachrichtigungen:** Wird im *Klimmzug-Tracker* angefragt, um Sie nach dem Ablauf von Satzpausen lokal auf Ihrem Gerät zu benachrichtigen. Es werden dabei keinerlei Daten an Server übertragen.
-* **Standort (GPS):** Wird in bestimmten Modulen (*Biermass-Tracker*, *Eiskugeln-Tracker*, *Espresso-Tracker*, *Kennzeichen-Tracker*) ausschließlich nach ausdrücklicher Einwilligung zur Ortserfassung eines Eintrags genutzt. Es findet **keine dauerhafte Standortverfolgung** statt.
+* **Standort (GPS):** Wird in bestimmten Modulen (*Biermass-Tracker*, *Eiskugeln-Tracker*, *Espresso-Tracker*, *Kennzeichen-Tracker*, *Pizza-Tracker*) ausschließlich nach ausdrücklicher Einwilligung zur Ortserfassung eines Eintrags genutzt. Es findet **keine dauerhafte Standortverfolgung** statt.
 
 ---
 
@@ -71,12 +72,12 @@ Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Ve
 
 ### 1. Controller & General Information
 
-**Data Controller according to GDPR:**  
-Claus Gumbmann  
-Heinrich-Böll-Str. 29  
-90587 Veitsbronn  
-Germany  
-**Email:** spalier-02talg@icloud.com  
+**Data Controller according to GDPR:**
+Claus Gumbmann
+Heinrich-Böll-Str. 29
+90587 Veitsbronn
+Germany
+**Email:** spalier-02talg@icloud.com
 
 All applications within **Trackiverse** are designed with privacy as the highest priority and can be used without registration.
 
@@ -92,6 +93,7 @@ All applications within **Trackiverse** are designed with privacy as the highest
 * 🏋️ **Klimmzug-Tracker:** Tracks pull-up progress (number of pull-ups, dates) strictly on your local device. Uses local notifications to alert you when a rest timer ends. *(100% local)*
 * 📖 **Lesen-Tracker:** Stores book details, local cover paths, reading sessions, and ratings. Uses **Open Library (Internet Archive)** exclusively to retrieve book data via ISBN search (transmits ISBN and device IP address for technical reasons).
 * 🍾 **Pfand-Tracker:** Stores **only date of entry and deposit amount in Euro** locally. *(100% local)*
+* 🍕 **Pizza-Tracker:** Records pizzas (diameter, calculated area, date/time of entry, optional location upon consent). Reference-area comparisons (e.g. sports courts) are calculated strictly on your local device from your logged data. *(100% local)*
 * 🧩 **Puzzle-Tracker:** Stores date/time of entry, puzzle details (title/type, status, duration), and optional photos of puzzle progress strictly on your local device. *(100% local)*
 * 💶 **Trinkgeld-Tracker:** Tracks shift earnings, working hours, and tips locally. *(100% local)*
 
@@ -101,7 +103,7 @@ All applications within **Trackiverse** are designed with privacy as the highest
 
 * **Camera Access:** Requested in *Lesen-Tracker* (for ISBN barcode scanning) and *Puzzle-Tracker* (for capturing optional photos of puzzle progress). All captured photos remain strictly on your local device.
 * **Notifications:** Requested in *Klimmzug-Tracker* to alert you locally when a rest timer ends. No data is transmitted.
-* **Location Access:** Used in *Biermass-Tracker*, *Eiskugeln-Tracker*, *Espresso-Tracker*, and *Kennzeichen-Tracker* strictly upon explicit consent to assign a location to an entry. No continuous tracking takes place.
+* **Location Access:** Used in *Biermass-Tracker*, *Eiskugeln-Tracker*, *Espresso-Tracker*, *Kennzeichen-Tracker*, and *Pizza-Tracker* strictly upon explicit consent to assign a location to an entry. No continuous tracking takes place.
 
 ---
 
