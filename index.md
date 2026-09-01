@@ -38,7 +38,9 @@ Jedes Modul arbeitet eigenständig und verarbeitet personenbezogene Daten nur, s
 
 * 🏔️ **Bergschein-Tracker:** Erfassung des persönlichen Bergkirchweih-Status (z. B. Mythos-Stufe, Geschlecht, Fortschritt) sowie Datum und Uhrzeit der Aktivität. *(100 % lokal)*
 * 🍺 **Biermass-Tracker:** Erfassung und Verwaltung des Bierkonsums (Anzahl der Mass, Datum, optionaler Standort nur bei ausdrücklicher Einwilligung). *(100 % lokal)*
-* 🧊 **Eisbad-Tracker:** Erfassung und Verwaltung von Eisbädern (Dauer des Bads / Plan vs. Ist bei vorzeitigem Abbruch, optional Wassertemperatur sowie Standort nur bei ausdrücklicher Einwilligung). *(100 % lokal)*
+* 🧊 **Eisbad-Tracker:**
+  * **Lokal gespeicherte Daten:** Dauer des Bads (Plan vs. Ist bei vorzeitigem Abbruch), optional manuell eingegebene Wassertemperatur sowie optional Standort nur bei ausdrücklicher Einwilligung. *(lokal)*
+  * **Abruf von Wetterdaten (Open-Meteo):** Um optional die Wassertemperatur bzw. Lufttemperatur am gewählten Ort vorzuschlagen, können Anfragen an den Dienst Open-Meteo (OpenMeteo GmbH, Schweiz) gesendet werden. Hierbei werden technisch bedingt die IP-Adresse Ihres Geräts sowie – sofern Sie den Standort freigegeben haben – die Koordinaten des Eintrags übertragen. Open-Meteo kann Verbindungsdaten (z. B. IP-Adresse, aufgerufene URL, ggf. Koordinaten) für Betrieb und Missbrauchsschutz in Server-Logs speichern und nach eigenen Angaben nach 90 Tagen löschen. Es wird kein Benutzerkonto bei Open-Meteo angelegt. Die zurückgelieferte Temperatur wird anschließend nur lokal auf Ihrem Gerät gespeichert.
 * 🍦 **Eiskugeln-Tracker:** Erfassung und Verwaltung des Eis-Konsums (Kugeln, Datum, optionaler Standort nur bei ausdrücklicher Einwilligung). *(100 % lokal)*
 * ☕ **Espresso-Tracker:** Erfassung und Auswertung getrunkener Espressos (Datum und Uhrzeit, Anzahl der Espressos, optionaler Standort nur bei ausdrücklicher Einwilligung). *(100 % lokal)*
 * 🚗 **Kennzeichen-Tracker:** Erfassung von Kfz-Kennzeichen (Kürzel, Ort, Zusatzinfos), Status (gesehen/ungesehen) sowie optional Datum, Standort oder persönliche Notizen. *(100 % lokal)*
@@ -58,8 +60,8 @@ Jedes Modul arbeitet eigenständig und verarbeitet personenbezogene Daten nur, s
 * **Teilen-Funktion:** Das Teilen von Ständen erfolgt ausschließlich manuell auf Ihre ausdrückliche Initiative hin über die vom Betriebssystem bereitgestellten Funktionen.
 * **Kamera:** Wird im *Lesen-Tracker* (zum Scannen des ISBN-Barcodes) und im *Puzzle-Tracker* (zum optionalen Festhalten des Puzzle-Fortschritts per Foto) angefragt. Alle Aufnahmen verbleiben ausschließlich lokal auf Ihrem Gerät.
 * **Benachrichtigungen:** Wird im *Klimmzug-Tracker* angefragt, um Sie nach dem Ablauf von Satzpausen lokal auf Ihrem Gerät zu benachrichtigen. Es werden dabei keinerlei Daten an Server übertragen.
-* **Standort (GPS):** Wird in bestimmten Modulen (*Biermass-Tracker*, *Eisbad-Tracker*, *Eiskugeln-Tracker*, *Espresso-Tracker*, *Kennzeichen-Tracker*, *Pizza-Tracker*) ausschließlich nach ausdrücklicher Einwilligung zur Ortserfassung eines Eintrags genutzt. Es findet **keine dauerhafte Standortverfolgung** statt.
-
+* **Wetterdaten (Open-Meteo):** Wird im *Eisbad-Tracker* nur auf Ihre Initiative bzw. nach entsprechender Einwilligung genutzt, um eine Temperatur für den gewählten Ort abzurufen. Übertragen werden IP-Adresse und ggf. Koordinaten. Es findet keine dauerhafte Standortübermittlung und kein Tracking durch Trackiverse statt.
+* **Standort (GPS):** Wird in bestimmten Modulen (*Biermass-Tracker*, *Eisbad-Tracker*, *Eiskugeln-Tracker*, *Espresso-Tracker*, *Kennzeichen-Tracker*, *Pizza-Tracker*) ausschließlich nach ausdrücklicher Einwilligung zur Ortserfassung eines Eintrags genutzt. Beim *Eisbad-Tracker* kann derselbe Standort zusätzlich für den optionalen Temperaturabruf bei Open-Meteo verwendet werden. Es findet **keine dauerhafte Standortverfolgung** statt.
 ---
 
 ### 5. Rechte der betroffenen Personen & Datenlöschung (DSGVO)
@@ -88,7 +90,7 @@ All applications within **Trackiverse** are designed with privacy as the highest
 
 * 🏔️ **Bergschein-Tracker:** Tracks personal Bergkirchweih status (e.g., myth level, gender, progress) and date/time strictly on your local device. *(100% local)*
 * 🍺 **Biermass-Tracker:** Tracks beer consumption (number of Mass, dates, optional location upon consent). *(100% local)*
-* 🧊 **Eisbad-Tracker:** Tracks ice baths (duration / plan vs. actual if stopped early, optional water temperature and location upon consent). *(100% local)*
+* 🧊 **Eisbad-Tracker:** Stores bath duration (plan vs. actual if stopped early), optional manually entered water temperature, and optional location upon consent locally. Optionally retrieves temperature data from **Open-Meteo** (OpenMeteo GmbH, Switzerland). This request transmits your device IP address and, if location access was granted, the entry coordinates. Open-Meteo may keep connection logs (IP, URL, possibly coordinates) for operations and abuse prevention and states that logs are deleted after 90 days. No Open-Meteo account is created. Retrieved temperatures are then stored only on your device.
 * 🍦 **Eiskugeln-Tracker:** Records ice cream consumption (scoops, date, optional location upon consent). *(100% local)*
 * ☕ **Espresso-Tracker:** Records consumed espressos (date/time, count, optional location upon consent). *(100% local)*
 * 🚗 **Kennzeichen-Tracker:** Stores license plate data, status, and optionally date, location, or notes. *(100% local)*
@@ -105,8 +107,8 @@ All applications within **Trackiverse** are designed with privacy as the highest
 
 * **Camera Access:** Requested in *Lesen-Tracker* (for ISBN barcode scanning) and *Puzzle-Tracker* (for capturing optional photos of puzzle progress). All captured photos remain strictly on your local device.
 * **Notifications:** Requested in *Klimmzug-Tracker* to alert you locally when a rest timer ends. No data is transmitted.
-* **Location Access:** Used in *Biermass-Tracker*, *Eisbad-Tracker*, *Eiskugeln-Tracker*, *Espresso-Tracker*, *Kennzeichen-Tracker*, and *Pizza-Tracker* strictly upon explicit consent to assign a location to an entry. No continuous tracking takes place.
-
+* **Weather data (Open-Meteo):** Used in *Eisbad-Tracker* only on your initiative / after the relevant consent to fetch a temperature for the chosen place. IP address and, where applicable, coordinates are transmitted. Trackiverse does not perform continuous location sharing or tracking.
+* **Location Access:** Used in *Biermass-Tracker*, *Eisbad-Tracker*, *Eiskugeln-Tracker*, *Espresso-Tracker*, *Kennzeichen-Tracker*, and *Pizza-Tracker* strictly upon explicit consent to assign a location to an entry. In *Eisbad-Tracker* the same location may also be used for the optional Open-Meteo temperature request. No continuous tracking takes place.
 ---
 
 ### 4. User Rights (GDPR)
