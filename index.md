@@ -1,9 +1,5 @@
-[Deutsch](#deutsch) | [English](#english)
-
----
-
 # Datenschutzerklärung & Impressum / Privacy Policy & Legal Notice  
-**Stand / Last Updated:** 23. August 2026
+**Stand / Last Updated:** 16. Oktober 2026
 
 ---
 
@@ -45,6 +41,7 @@ Jedes Modul arbeitet eigenständig und verarbeitet personenbezogene Daten nur, s
 * ☕ **Espresso-Tracker:** Erfassung und Auswertung getrunkener Espressos (Datum und Uhrzeit, Anzahl der Espressos, optionaler Standort nur bei ausdrücklicher Einwilligung). *(100 % lokal)*
 * 🚗 **Kennzeichen-Tracker:** Erfassung von Kfz-Kennzeichen (Kürzel, Ort, Zusatzinfos), Status (gesehen/ungesehen) sowie optional Datum, Standort oder persönliche Notizen. *(100 % lokal)*
 * 🏋️ **Klimmzug-Tracker:** Erfassung und Verwaltung von Klimmzug-Fortschritten (Anzahl der Klimmzüge, Datum). Das Modul nutzt zudem lokale Benachrichtigungen, um Sie an das Ende einer Satzpause zu erinnern. *(100 % lokal)*
+* 🍪 **Lebkuchen-Tracker:** Erfassung von Datum und Uhrzeit des Lebkuchen-Konsums. *(100 % lokal)*
 * 📖 **Lesen-Tracker:**
   * **Lokal gespeicherte Daten:** Buchdetails (Titel, Autor, ISBN, Seitenanzahl, Genre), lokale Pfade zu heruntergeladenen Buchcovern, Lese-Sitzungen (Start-/Endzeitpunkt) sowie persönliche Bewertungen.
   * **Abruf von Buchdaten (Open Library):** Um das Hinzufügen von Büchern per ISBN-Suche zu erleichtern, werden Anfragen ausschließlich an den freien Dienst Open Library (Internet Archive) gesendet. Hierbei werden die gesuchte ISBN sowie technisch bedingt die IP-Adresse Ihres Geräts an Open Library übertragen.
@@ -62,6 +59,7 @@ Jedes Modul arbeitet eigenständig und verarbeitet personenbezogene Daten nur, s
 * **Benachrichtigungen:** Wird im *Klimmzug-Tracker* angefragt, um Sie nach dem Ablauf von Satzpausen lokal auf Ihrem Gerät zu benachrichtigen. Es werden dabei keinerlei Daten an Server übertragen.
 * **Wetterdaten (Open-Meteo):** Wird im *Eisbad-Tracker* immer dann genutzt, wenn ein Eintrag einen Standort hat (Geräte-Standort ungefähr/genau nach Einwilligung oder manuell gesetzter Ort), um die Außentemperatur abzurufen. Die Außentemperatur kann nicht manuell eingegeben werden. Übertragen werden IP-Adresse und Koordinaten. Ohne Standort erfolgt kein Abruf. Es findet keine dauerhafte Standortübermittlung und kein Tracking durch Trackiverse statt.
 * **Standort (GPS):** Wird in bestimmten Modulen (*Biermass-Tracker*, *Eisbad-Tracker*, *Eiskugeln-Tracker*, *Espresso-Tracker*, *Kennzeichen-Tracker*, *Pizza-Tracker*) ausschließlich nach ausdrücklicher Einwilligung zur Ortserfassung eines Eintrags genutzt oder nach manueller Ortsangabe. Beim *Eisbad-Tracker* löst ein vorhandener Standort immer einen Abruf der Außentemperatur bei Open-Meteo aus. Es findet **keine dauerhafte Standortverfolgung** statt.
+
 ---
 
 ### 5. Rechte der betroffenen Personen & Datenlöschung (DSGVO)
@@ -97,6 +95,7 @@ All applications within **Trackiverse** are designed with privacy as the highest
 * ☕ **Espresso-Tracker:** Records consumed espressos (date/time, count, optional location upon consent). *(100% local)*
 * 🚗 **Kennzeichen-Tracker:** Stores license plate data, status, and optionally date, location, or notes. *(100% local)*
 * 🏋️ **Klimmzug-Tracker:** Tracks pull-up progress (number of pull-ups, dates) strictly on your local device. Uses local notifications to alert you when a rest timer ends. *(100% local)*
+* 🍪 **Lebkuchen-Tracker:** Records only the date and time of Lebkuchen consumption. *(100% local)*
 * 📖 **Lesen-Tracker:** Stores book details, local cover paths, reading sessions, and ratings. Uses **Open Library (Internet Archive)** exclusively to retrieve book data via ISBN search (transmits ISBN and device IP address for technical reasons).
 * 🍾 **Pfand-Tracker:** Stores **only date of entry and deposit amount in Euro** locally. *(100% local)*
 * 🍕 **Pizza-Tracker:** Records pizzas (diameter, calculated area, date/time of entry, optional location upon consent). Reference-area comparisons (e.g. sports courts) are calculated strictly on your local device from your logged data. *(100% local)*
