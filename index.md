@@ -1,5 +1,6 @@
-# Datenschutzerklärung & Impressum / Privacy Policy & Legal Notice  
-**Stand / Last Updated:** 18. Oktober 2026
+# Datenschutzerklärung & Impressum / Privacy Policy & Legal Notice
+
+**Stand / Last Updated:** 15. November 2026
 
 ---
 
@@ -7,13 +8,13 @@
 
 ### 1. Impressum (Angaben gemäß § 5 TMG / § 18 Abs. 2 MStV)
 
-**Verantwortlicher im Sinne der DSGVO:**  
-Claus Gumbmann  
-Heinrich-Böll-Str. 29  
-90587 Veitsbronn  
-Deutschland  
+**Verantwortlicher im Sinne der DSGVO:**
+Claus Gumbmann
+Heinrich-Böll-Str. 29
+90587 Veitsbronn
+Deutschland
 
-**Kontakt:**  
+**Kontakt:**
 E-Mail: spalier-02talg@icloud.com
 
 ---
@@ -23,8 +24,8 @@ E-Mail: spalier-02talg@icloud.com
 Diese Datenschutzerklärung gilt zentral für alle Anwendungen im **Trackiverse**. Sämtliche Apps können grundsätzlich ohne Registrierung genutzt werden. Ihre Daten verbleiben weitestgehend auf Ihrem eigenen Gerät:
 
 - **Kein Tracking & Keine Werbung:** Es werden keine Werbenetzwerke, keine Analytics-Tools und keine Tracking-Dienste eingesetzt.
-- **Kein Benutzerkonto:** Es ist keine Registrierung, keine Anmeldung und keine Eingabe persönlicher Identifikatoren erforderlich.
-- **Lokale Speicherung:** Alle Zeiten, Beträge, Standorte, Fotos usw. verbleiben ausschließlich auf Ihrem eigenen Gerät. Es existiert kein Server-Backend.
+- **Kein Benutzerkonto:** Es ist keine Registrierung, keine Anmeldung und keine Eingabe persönlicher Identifikatoren (wie Name oder E-Mail-Adresse) erforderlich.
+- **Lokale Speicherung:** Alle Zeiten, Beträge, Standorte, Fotos usw. verbleiben ausschließlich auf Ihrem eigenen Gerät. Es existiert grundsätzlich kein Server-Backend – mit Ausnahme der optionalen, freiwilligen Community-Ranglisten im *Kennzeichen-Tracker* und *Klimmzug-Tracker* sowie externer Abrufe (Open-Meteo, Open Library), sofern Sie diese Funktionen nutzen.
 
 ---
 
@@ -40,8 +41,12 @@ Jedes Modul arbeitet eigenständig und verarbeitet personenbezogene Daten nur, s
 - 🍦 **Eiskugeln-Tracker:** Erfassung und Verwaltung des Eis-Konsums (Kugeln, Datum, optionaler Standort nur bei ausdrücklicher Einwilligung). *(100 % lokal)*
 - ☕ **Espresso-Tracker:** Erfassung und Auswertung getrunkener Espressos (Datum und Uhrzeit, Anzahl der Espressos, optionaler Standort nur bei ausdrücklicher Einwilligung). *(100 % lokal)*
 - 🍷 **Glühwein-Tracker:** Erfassung und Verwaltung des Glühweinkonsums (Anzahl der Tassen/Becher, Datum, optionaler Standort nur bei ausdrücklicher Einwilligung). *(100 % lokal)*
-- 🚗 **Kennzeichen-Tracker:** Erfassung von Kfz-Kennzeichen (Kürzel, Ort, Zusatzinfos), Status (gesehen/ungesehen) sowie optional Datum, Standort oder persönliche Notizen. *(100 % lokal)*
-- 🏋️ **Klimmzug-Tracker:** Erfassung und Verwaltung von Klimmzug-Fortschritten (Anzahl der Klimmzüge, Datum). Das Modul nutzt zudem lokale Benachrichtigungen, um Sie an das Ende einer Satzpause zu erinnern. *(100 % lokal)*
+- 🚗 **Kennzeichen-Tracker:**
+  - **Lokal gespeicherte Daten:** Erfassung von Kfz-Kennzeichen (Kürzel, Ort, Zusatzinfos), Status (gesehen/ungesehen) sowie optional Datum, Standort oder persönliche Notizen. *(ohne Rangliste 100 % lokal)*
+  - **Optionale Community-Ranglisten:** Nur wenn Sie aktiv einen Nickname registrieren und Ihre Stände teilen, werden Ihr frei gewählter Nickname, eine lokal erzeugte anonyme Geräte-/Benutzer-ID (UUID), die jeweilige Anzahl gesichteter Kennzeichen/Bezirke (je Land: DE, AT, CH, FR sowie gesamt), Ihre beste Platzierung und der Zeitstempel der Aktualisierung an das Ranglisten-Backend übertragen und dort gespeichert. Konkrete Kennzeichen, Orte, Standorte oder persönliche Notizen werden **nicht** übertragen.
+- 🏋️ **Klimmzug-Tracker:**
+  - **Lokal gespeicherte Daten:** Erfassung und Verwaltung von Klimmzug-Fortschritten (Anzahl der Klimmzüge, ggf. Zusatzgewicht, Datum). Das Modul nutzt zudem lokale Benachrichtigungen, um Sie an das Ende einer Satzpause zu erinnern. *(ohne Rangliste 100 % lokal)*
+  - **Optionale Community-Ranglisten:** Nur wenn Sie aktiv einen Nickname registrieren und Ihre Werte teilen (Teilnahme ab mindestens 3 verschiedenen Trainingstagen), werden Ihr frei gewählter Nickname, eine lokal erzeugte anonyme Geräte-/Benutzer-ID (UUID), Ihre Gesamtzahl an Klimmzügen, ggf. das gesamte bewegte Zusatzgewicht, Ihre beste Platzierung und der Zeitstempel der Aktualisierung an das Ranglisten-Backend übertragen und dort gespeichert. (Die Anzahl der Trainingstage wird nur bei der Übermittlung zur Teilnahmeprüfung geprüft und nicht im Ranglisteneintrag gespeichert.)
 - 🍪 **Lebkuchen-Tracker:** Erfassung von Datum und Uhrzeit des Lebkuchen-Konsums. *(100 % lokal)*
 - 📖 **Lesen-Tracker:**
   - **Lokal gespeicherte Daten:** Buchdetails (Titel, Autor, ISBN, Seitenanzahl, Genre), lokale Pfade zu heruntergeladenen Buchcovern, Lese-Sitzungen (Start-/Endzeitpunkt) sowie persönliche Bewertungen.
@@ -56,6 +61,7 @@ Jedes Modul arbeitet eigenständig und verarbeitet personenbezogene Daten nur, s
 ### 4. Besondere Funktionen & Geräteberechtigungen
 
 - **Teilen-Funktion:** Das Teilen von Ständen erfolgt ausschließlich manuell auf Ihre ausdrückliche Initiative hin über die vom Betriebssystem bereitgestellten Funktionen.
+- **Community-Ranglisten (Firebase / Google Cloud):** Die Teilnahme an den Ranglisten im *Kennzeichen-Tracker* und *Klimmzug-Tracker* ist freiwillig. Das Backend wird über Firebase (Cloud Functions und Cloud Firestore, Google Cloud Platform) in der EU-Serverregion `europe-west3` (Frankfurt am Main, Deutschland) betrieben. Bei der Nutzung werden technisch bedingt die IP-Adresse Ihres Geräts sowie – bei aktiver Teilnahme – Ihr Nickname, die anonyme UUID zur Kontozuordnung, Ihre Ranglistenwerte und Aktualisierungszeitstempel verarbeitet. Öffentlich in der Rangliste sichtbar sind ausschließlich Ihr Nickname, Rang, Score (bei Klimmzug ggf. inkl. Zusatzgewicht), Ihre beste Platzierung und der Zeitstempel der letzten Aktualisierung; die UUID wird nicht öffentlich angezeigt. Sie können Ihre Ranglisteneinträge sowie Ihren Nickname inklusive aller zugehörigen Serverdaten jederzeit direkt in den App-Einstellungen wieder löschen.
 - **Kamera:** Wird im *Lesen-Tracker* (zum Scannen des ISBN-Barcodes) und im *Puzzle-Tracker* (zum optionalen Festhalten des Puzzle-Fortschritts per Foto) angefragt. Alle Aufnahmen verbleiben ausschließlich lokal auf Ihrem Gerät.
 - **Benachrichtigungen:** Wird im *Klimmzug-Tracker* angefragt, um Sie nach dem Ablauf von Satzpausen lokal auf Ihrem Gerät zu benachrichtigen. Es werden dabei keinerlei Daten an Server übertragen.
 - **Wetterdaten (Open-Meteo):** Wird im *Eisbad-Tracker* immer dann genutzt, wenn ein Eintrag einen Standort hat (Geräte-Standort ungefähr/genau nach Einwilligung oder manuell gesetzter Ort), um die Außentemperatur abzurufen. Die Außentemperatur kann nicht manuell eingegeben werden. Übertragen werden IP-Adresse und Koordinaten. Ohne Standort erfolgt kein Abruf. Es findet keine dauerhafte Standortübermittlung und kein Tracking durch Trackiverse statt.
@@ -65,7 +71,7 @@ Jedes Modul arbeitet eigenständig und verarbeitet personenbezogene Daten nur, s
 
 ### 5. Rechte der betroffenen Personen & Datenlöschung (DSGVO)
 
-Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Beschwerde bei einer Datenschutzaufsichtsbehörde gemäß DSGVO.
+Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Beschwerde bei einer Datenschutzaufsichtsbehörde gemäß DSGVO. Sofern Sie an den Community-Ranglisten teilnehmen, können Sie Ihre Ranglisteneinträge und Ihren Nickname jederzeit selbstständig über die jeweilige App löschen.
 
 ---
 
@@ -73,13 +79,13 @@ Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Ve
 
 ### 1. Controller & General Information
 
-**Data Controller according to GDPR:**  
-Claus Gumbmann  
-Heinrich-Böll-Str. 29  
-90587 Veitsbronn  
-Germany  
+**Data Controller according to GDPR:**
+Claus Gumbmann
+Heinrich-Böll-Str. 29
+90587 Veitsbronn
+Germany
 
-**Email:** spalier-02talg@icloud.com  
+**Email:** spalier-02talg@icloud.com
 
 All applications within **Trackiverse** are designed with privacy as the highest priority and can be used without registration.
 
@@ -95,8 +101,12 @@ All applications within **Trackiverse** are designed with privacy as the highest
 - 🍦 **Eiskugeln-Tracker:** Records ice cream consumption (scoops, date, optional location upon consent). *(100% local)*
 - ☕ **Espresso-Tracker:** Records consumed espressos (date/time, count, optional location upon consent). *(100% local)*
 - 🍷 **Glühwein-Tracker:** Tracks mulled wine consumption (number of mugs, dates, optional location upon consent). *(100% local)*
-- 🚗 **Kennzeichen-Tracker:** Stores license plate data, status, and optionally date, location, or notes. *(100% local)*
-- 🏋️ **Klimmzug-Tracker:** Tracks pull-up progress (number of pull-ups, dates) strictly on your local device. Uses local notifications to alert you when a rest timer ends. *(100% local)*
+- 🚗 **Kennzeichen-Tracker:**
+  - **Data stored locally:** Stores license plate data, status, and optionally date, location, or notes. *(100% local unless participating in leaderboards)*
+  - **Optional Community Leaderboards:** Only if you actively register a nickname and submit your counts, your chosen nickname, a locally generated anonymous device/user ID (UUID), the number of spotted license plate districts (by country: DE, AT, CH, FR, and total), your best rank, and the update timestamp are transmitted to and stored on the leaderboard backend. Specific license plates, places, locations, or personal notes are **not** transmitted.
+- 🏋️ **Klimmzug-Tracker:**
+  - **Data stored locally:** Tracks pull-up progress (number of pull-ups, optional added weight, dates) strictly on your local device. Uses local notifications to alert you when a rest timer ends. *(100% local unless participating in leaderboards)*
+  - **Optional Community Leaderboards:** Only if you actively register a nickname and submit your stats (available after at least 3 distinct training days), your chosen nickname, a locally generated anonymous device/user ID (UUID), your total pull-up repetitions, optional total added weight lifted, your best rank, and the update timestamp are transmitted to and stored on the leaderboard backend. (The number of training days is only checked during submission to verify eligibility and is not stored in the leaderboard entry.)
 - 🍪 **Lebkuchen-Tracker:** Records only the date and time of Lebkuchen consumption. *(100% local)*
 - 📖 **Lesen-Tracker:** Stores book details, local cover paths, reading sessions, and ratings. Uses **Open Library (Internet Archive)** exclusively to retrieve book data via ISBN search (transmits ISBN and device IP address for technical reasons).
 - 🍾 **Pfand-Tracker:** Stores **only date of entry and deposit amount in Euro** locally. *(100% local)*
@@ -108,6 +118,7 @@ All applications within **Trackiverse** are designed with privacy as the highest
 
 ### 3. Permissions & Third-Party Services
 
+- **Community Leaderboards (Firebase / Google Cloud):** Participation in the *Kennzeichen-Tracker* and *Klimmzug-Tracker* leaderboards is optional. The backend runs on Firebase (Cloud Functions and Cloud Firestore, Google Cloud Platform) in the EU region `europe-west3` (Frankfurt, Germany). When using the feature, your device IP address is transmitted for technical reasons, and—if you actively participate—your nickname, anonymous UUID for entry management, leaderboard scores, and update timestamps are processed. Publicly visible on the leaderboard are only your nickname, rank, score (including added weight for pull-ups if applicable), best rank, and last update timestamp; the UUID is never shown publicly. You can delete your leaderboard entries as well as your nickname and all associated server data at any time directly within the app settings.
 - **Camera Access:** Requested in *Lesen-Tracker* (for ISBN barcode scanning) and *Puzzle-Tracker* (for capturing optional photos of puzzle progress). All captured photos remain strictly on your local device.
 - **Notifications:** Requested in *Klimmzug-Tracker* to alert you locally when a rest timer ends. No data is transmitted.
 - **Weather data (Open-Meteo):** Used in *Eisbad-Tracker* whenever an entry has a location (device location after consent, approximate or precise, or a place set manually) to fetch the outdoor/air temperature. Outdoor temperature cannot be entered manually. The request transmits the device IP address and the entry coordinates. Without a location, no request is made. Trackiverse does not perform continuous location sharing or tracking.
@@ -117,4 +128,4 @@ All applications within **Trackiverse** are designed with privacy as the highest
 
 ### 4. User Rights (GDPR)
 
-You have rights to access, rectification, erasure, restriction of processing, data portability, and to lodge a complaint with a supervisory authority under the GDPR.
+You have rights to access, rectification, erasure, restriction of processing, data portability, and to lodge a complaint with a supervisory authority under the GDPR. If you participate in the community leaderboards, you can delete your leaderboard entries and your nickname directly within the respective app at any time.
